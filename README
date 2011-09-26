@@ -1,0 +1,22 @@
+Snippetr
+=============
+
+Rails plugin to pickup images from particular web page.
+Also you can pickup japanese street address .
+
+
+Example
+=======
+
+s = Snippetr.new("http://r.tabelog.com/hokkaido/A0106/A010603/1009661/")
+s.images #=> ['http://bar..jpg']
+s.title #=> page title
+s.description 
+s.addresses #=> (EXPERIMENTAL) for japanese only at the moment
+
+
+
+
+
+
+Copyright (c) 2011 [name of plugin creator], released under the MIT license
